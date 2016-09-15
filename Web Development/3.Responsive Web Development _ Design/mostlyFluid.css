@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.child1, .child2, .child3, .child4, .child5 {
+	width: 100%;
+	border: 1px solid blue;
+}
+
+@media (min-width: 600px) {
+	.child2, .child3, .child4, .child5 {
+		width: 49%;
+	}
+}
+
+@media (min-width: 800px) {
+	.child1 {
+		width: 59%;
+	}
+
+	.child2 {
+		width: 40%;
+	}
+
+	.child3, .child4, .child5 {
+		width: 33%;
+	}
+
+	.container {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

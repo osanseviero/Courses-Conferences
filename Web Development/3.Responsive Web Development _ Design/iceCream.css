@@ -1,0 +1,58 @@
+.fullSundae {
+	height: 800px;
+	position: static;
+	width: 20%;
+	margin-top: 100px;
+}
+
+.scoop {
+	border: 1px solid blue;
+}
+
+.fullSundae > .scoop {
+	height: 100px;
+}
+
+.glass {
+	position: relative;
+	height: 60%;
+	width: 80%;
+}
+
+.glass .scoop{
+	position: relative;
+	height: 33.3%;
+}
+
+.cream {
+	position: fixed;
+	top: 0;
+}
+
+.fullSundae > .cherry {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+}
+
+.glassCherry {
+	position: absolute;
+	bottom: 50px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.white{
+	background-color: white;
+}
+
+
+
+
+

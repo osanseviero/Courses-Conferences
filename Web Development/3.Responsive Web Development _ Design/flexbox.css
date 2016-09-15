@@ -1,0 +1,20 @@
+.container {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container div {
+	position: relative;
+	width: 30%;
+	border: 1px solid blue;
+	flex-grow: 1;
+}
+
+.child1 {
+	order: 1;
+}
+
+.child2 {
+	order: 2;
+}
