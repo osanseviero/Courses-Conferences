@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 1. Load webcomponents-lite.min.js for polyfill support. -->
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
+    </script>
+
+    <!-- 2. Use an HTML Import to bring in some elements. -->
+    <link rel="import" href="bower_components/paper-button/paper-button.html">
+    <link rel="import" href="bower_components/paper-card/paper-card.html">
+    <link rel="import" href="bower_components/paper-input/paper-input.html">
+  </head>
+  <body>
+    <!-- 3. Declare the element. Configure using its attributes. -->
+    <paper-card heading="Pizza" elevation=3>
+   		<div class="card-content">Ask for any pizza you want</div>
+   		<div class="card-actions">
+		    <paper-input label="Your pizza here"></paper-input>
+		    <paper-button raised>Get pizza!!</paper-button>
+		</div>
+	    <div id="greeting"></div>
+    </paper-card>
+
+    <script>
+      // To ensure that elements are ready on polyfilled browsers, 
+      // wait for WebComponentsReady. 
+      document.addEventListener('WebComponentsReady', function() {
+        var input = document.querySelector('paper-input');
+        var button = document.querySelector('paper-button');
+        var greeting = document.getElementById("greeting");
+        button.addEventListener('click', function() {
+          greeting.textContent = 'I like, ' + input.value + '!';
+        });
+      });
+    </script>
+  </body>
+</html>
