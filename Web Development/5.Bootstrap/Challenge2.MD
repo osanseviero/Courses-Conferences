@@ -6,7 +6,7 @@ This is the second challenge on learning Bootstrap.
 
 3. Use small to add a secondary text in the headings. Be careful where you put the tag! (http://getbootstrap.com/css/#type-headings).
 
-4. Create a paragraph with some text. Hint: If you have Emmet, put lorem and press Tab and it will create a nice little paragraph. Now play with some tags: <mark>, <del>, <s>, <ins>, and <u>. Be careful to close them and to understand each of them.
+4. Create a paragraph with some text. Hint: If you have Emmet, put lorem and press Tab and it will create a nice little paragraph. Now play with some tags: \<mark>, \<del>, \<s>, \<ins>, and \<u>. Be careful to close them and to understand each of them.
 
 5. Use the alignment classes to align things in specific places. How easy is it to center! (http://getbootstrap.com/css/#type-inline-text)
 
