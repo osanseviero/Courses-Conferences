@@ -1,0 +1,36 @@
+:invalid { 
+  border-color: #e88;
+  box-shadow:0 0 5px rgba(255, 0, 0, .8);
+}
+
+:required {
+  border-color: #88a;
+  box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+form {
+  width:300px;
+  margin: 20px auto;
+}
+
+input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+  border-radius:5px;
+}
+
+input:invalid {
+  background-color: #f0dddd;
+}
+
+input[type=submit] {
+  background:none;
+  padding:10px;
+}
