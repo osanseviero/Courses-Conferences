@@ -1,0 +1,20 @@
+/* FOR INDEX3 */
+
+body {
+	color: navy;
+}
+
+li {
+	color: red;
+}
+
+h1 {
+	color: green;
+}
+
+
+/* ALSO ADD THIS FOR INDEX4 */
+
+nav li {
+	display: inline;
+}

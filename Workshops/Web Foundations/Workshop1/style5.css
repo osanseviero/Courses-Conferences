@@ -1,0 +1,49 @@
+/* ADD THIS AFTER ADDING BORDER TO THE IMAGE */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: navy;
+	font-size: 20px;					/* CSS UNITS */
+	font-family: 'Roboto', sans-serif; 	/*FONTS */
+}
+
+li {
+	color: red;
+}
+
+h1 {
+	color: green;
+}
+
+nav li {
+	display: inline;
+	font-size: 1.5em;			/* CSS UNITS */
+}
+
+img {
+	width: 33%;					/* CSS UNITS */
+	border: 3px solid #FF5A71;		/*ADD IN COLOR SLIDE */
+}
+
+#googleLink {
+	border: 1px dashed blue;
+	padding: 10px 10px 0 0;		/* Margin, Padding, Border*/
+	margin: 0 10px 0 0;
+}
+
+#redditLink {
+	border: 1px dashed green;
+	padding: 10px 10px 0 0;		/* Margin, Padding, Border*/
+	margin: 0 30px 0 0;
+}
+
+#udacityLink {
+	border: 1px dashed red;
+	padding: 10px 10px 0 0;		/* Margin, Padding, Border*/
+}
+
+.blue {
+	background-color: blue;
+}
