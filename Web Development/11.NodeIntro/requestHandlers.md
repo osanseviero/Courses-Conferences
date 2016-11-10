@@ -168,7 +168,7 @@ We can be happy now. Everything works as it should. Right..? Let's do a small te
     exports.start = start;
     exports.upload = upload;
 
-This code is not async. The while loop will keep running for 10 seconds before sending the response. Imagine you're calling to a file that is taking time to be sent, or you're not receiving an answer of an API.Let's see what happens. Go to http://localhost:8080/ and immediately go to http://localhost:8080/upload. If you see, the first link will keep loading (for 10 seconds, as expected), but upload won't run until start loads. If you have many users in your website, one user could block the server from the others. 
+This code is not async. The while loop will keep running for 10 seconds before sending the response. Imagine you're calling to a file that is taking time to be sent, or you're not receiving an answer of an API.Let's see what happens. Go to http://localhost:8080/ and immediately go to http://localhost:8080/upload at another tab. If you see, the first link will keep loading (for 10 seconds, as expected), but upload won't run until start loads. If you have many users in your website, one user could block the server from the others. 
 
 Let's do a second test. In this one we will import an exec module which allows Node to run system commands (just like in the terminal, ex: ls). 
 
