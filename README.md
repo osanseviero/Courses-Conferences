@@ -20,4 +20,5 @@ This repository contains courses, conferences and workshops I've given.
 
 
 **Workshop series: Intro to Web Development**
+
 A 5 hour workshop to learn the basics of Front End Web Development. It covers good practices of HTML5 and CSS, and a series of challenges using different tools. The second part of the workshop if focused on learning a library (Bootstrap) and how to deal with documentation and searching for different issues. The focus is to give enough tools to the students so they can enter the world of web development by themselves.
